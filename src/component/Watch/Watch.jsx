@@ -11,7 +11,7 @@ const Watch = () => {
             <h2>This is watch component.</h2>
             <h4>Steps : {steps}</h4>
             <button onClick={increaseSteps}>Increase Steps</button>
-            <Dial></Dial>
+            <Dial steps={steps}></Dial>
         </div>
     );
 };
