@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <Device name="samsung" price="10000"></Device>
+      <Device name="samsung" price="10000" ram="4GB"></Device>
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
